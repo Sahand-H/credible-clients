@@ -41,6 +41,14 @@ _Good luck, and have fun with this_! :rocket:
 Give a brief summary of the approach you took, and why! Include your model's
 accuracy/precision/recall scores as well!
 
+Unfortunately I found out about the ML team a little later than I would have liked so this was a pretty barebones approach.
+
+Results:
+Accuracy:  50.987%
+Precision: 22.467%
+Recall:    51.383%
+
+Since this seemed liked a binary classification problem I figured a Logistic Regression approach might be more suitable especially seeing how the default implementation of it works in a OneVsRest way. I haven't really delved deep into using this approach before so I couldn't make the most of it to improve the results. However, given more time I think there would some value in playing around with the class weights to get a better idea of the relations or perhaps even eliminating certain classes to see if the model would fare better.
 
 ## Data Format
 
