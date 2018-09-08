@@ -9,7 +9,7 @@ class CreditModel:
         """
 
         # TODO: Initialize your model object.
-        self.model = LogisticRegression()
+        self.model = LogisticRegression(solver='sag')
         pass
 
     def fit(self, X_train, y_train):
