@@ -41,7 +41,7 @@ _Good luck, and have fun with this_! :rocket:
 Give a brief summary of the approach you took, and why! Include your model's
 accuracy/precision/recall scores as well!
 
-Unfortunately I found out about the ML team a little later than I would have liked so this was a pretty barebones approach.
+Unfortunately I found out about the ML team a little later than I would have liked so this was a pretty barebones approach given the application deadline was fairly close.
 
 Results:
 Accuracy:  50.987%
