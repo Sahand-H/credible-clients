@@ -1,4 +1,5 @@
 import numpy as np
+from sklearn.linear_model import LogisticRegression
 
 
 class CreditModel:
@@ -8,6 +9,7 @@ class CreditModel:
         """
 
         # TODO: Initialize your model object.
+        self.model = LogisticRegression()
         pass
 
     def fit(self, X_train, y_train):
@@ -19,6 +21,7 @@ class CreditModel:
         """
 
         # TODO: Fit your model based on the given X and y.
+        self.model.fit(X_train, y_train)
         pass
 
     def predict(self, X_test):
@@ -30,4 +33,5 @@ class CreditModel:
         """
 
         # TODO: Predict on `X_test` based on what you learned in the fit phase.
+        self.model.predict(X_test)
         return np.random.randint(2, size=len(X_test))
